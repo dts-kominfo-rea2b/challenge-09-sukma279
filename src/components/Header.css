@@ -1,0 +1,9 @@
+.dash {
+    border: 7px dotted #D4CB92; 
+    border-style: none none dotted; 
+    color: #D4CB92; 
+    margin: 0 5em 1em 5em;
+}
+.header {
+    color: #fff;
+}

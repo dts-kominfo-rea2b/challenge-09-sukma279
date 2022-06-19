@@ -1,4 +1,6 @@
 .App {
   text-align: center;
   display: flex;
+  background-color: #395C6B;
+  flex-direction: column;
 }
