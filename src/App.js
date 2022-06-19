@@ -11,8 +11,9 @@ const App = () => {
     <div className="App">
       <Header />
       {
-        contacts.map((contact) => {
+        contacts.map((contact, index) => {
           return <Contact 
+          key = {index}
           photo = {contact.photo} 
           name = {contact.name} 
           phone = {contact.phone} 
