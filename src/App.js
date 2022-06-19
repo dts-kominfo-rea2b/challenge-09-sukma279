@@ -13,11 +13,8 @@ const App = () => {
       {
         contacts.map((contact, index) => {
           return <Contact 
-          key = {index}
-          photo = {contact.photo} 
-          name = {contact.name} 
-          phone = {contact.phone} 
-          email = {contact.email}/>
+          data = {contact}
+          key = {index}/>
         })
       }
     </div>
