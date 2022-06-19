@@ -3,16 +3,16 @@
 import './Contact.css';
 import React from 'react';
 
-const Contact = ({photo, name, phone, email}) => {
+const Contact = (props) => {
     return (
         <div className='contact'>
             <div className='image'>
-                <img src={photo} alt="kucing" />
+                <img src={props.photo} alt="kucing" />
             </div>
             <div className='data'>
-                <h3>{name}</h3>
-                <p>{phone}</p>
-                <p>{email}</p>
+                <h3>{props.name}</h3>
+                <p>{props.phone}</p>
+                <p>{props.email}</p>
             </div>
         </div>
     )
